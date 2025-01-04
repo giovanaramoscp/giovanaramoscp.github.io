@@ -1,1 +1,1 @@
-🔗Link do Meu Portfólio: https://giovanaramoscp.github.io/
+🔗Deploy: https://giovanaramoscp.github.io/
