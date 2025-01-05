@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-  color: #111217;
+  color: #f0f0f0;
 }
 
 i {
@@ -131,6 +131,7 @@ p {
   width: 100vw;
   position: fixed;
   bottom: 0;
+  left: 0;
   justify-content: space-between;
   border-top: 1px solid #28292e;
   z-index: 1000;
@@ -516,9 +517,9 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 0.2rem;
-  font-size: 0.2rem;
-  background: #28292e;
+  padding: 1px;
+  font-size: 0.5px;
+  background: #28292ec9;
   color: #f0f0f0cc;
   z-index: 1000;
 }
