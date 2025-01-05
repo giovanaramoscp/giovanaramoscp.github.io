@@ -541,11 +541,12 @@ footer a:hover {
   }
 
   .nav--mobile {
-    z-index: 1000;
+    display: none;
   }
 
   .header__nav {
     display: flex;
+    z-index: 1000;
   }
 
   .header__nav {
