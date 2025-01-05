@@ -133,6 +133,7 @@ p {
   bottom: 0;
   justify-content: space-between;
   border-top: 1px solid #28292e;
+  z-index: 1000;
 }
 
 .menu--mobile .menu__link {
@@ -546,10 +547,6 @@ footer a:hover {
 
   .header__nav {
     display: flex;
-    z-index: 1000;
-  }
-
-  .header__nav {
     min-width: 30%;
   }
 
