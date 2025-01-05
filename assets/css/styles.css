@@ -542,6 +542,7 @@ footer a:hover {
 
   .nav--mobile {
     display: none;
+    z-index: 1000;
   }
 
   .header__nav {
