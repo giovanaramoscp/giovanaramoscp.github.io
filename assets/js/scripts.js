@@ -1,4 +1,4 @@
-const accordionHeaders = document.querySelectorAll(".accordion__header");
+const accordionHeaders = document.querySelectorAll(".accordion_header");
 
 accordionHeaders.forEach(header => {
     header.addEventListener("click", () => {
@@ -9,7 +9,7 @@ accordionHeaders.forEach(header => {
     })
 })
 
-const menuLinks = document.querySelectorAll(".menu__link");
+const menuLinks = document.querySelectorAll(".menu_link");
 
  menuLinks.forEach(item => {
     item.addEventListener("click", ()) => {
@@ -17,3 +17,7 @@ const menuLinks = document.querySelectorAll(".menu__link");
         item.classList.add("active");
     } 
 })
+
+function toggleMenu() {
+    document.querySelector(".menu-mobile").classList.toggle("menu-open");
+  }
