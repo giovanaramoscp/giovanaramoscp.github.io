@@ -19,13 +19,35 @@
 
       <nav class="header_nav">
         <ul class="menu_principal">
-          <li class="menu_item"><a class="menu_link active" href="#home">Home</a></li>
-          <li class="menu_item"><a class="menu_link" href="#sobre">Sobre</a></li>
-          <li class="menu_item"><a class="menu_link" href="#habilidades">Habilidades</a></li>
-          <li class="menu_item"><a class="menu_link" href="#projetos">Projetos</a></li>
-          <li class="menu_item"><a class="menu_link" href="#contato">Contato</a></li>
+          <li><a class="menu active" href="#home">Home</a></li>
+          <li><a class="menu" href="#sobre">Sobre</a></li>
+          <li><a class="menu" href="#habilidades">Habilidades</a></li>
+          <li><a class="menu" href="#projetos">Projetos</a></li>
+          <li><a class="menu" href="#contato">Contato</a></li>
         </ul>
       </nav>
+
+      <div class="btn-abrir" id="btn-menu">
+        <i class="bi bi-list"></i>
+      </div>
+
+      <div class="menu-mobile" id="menu-mobile">
+        <div class="btn-fechar">
+          <i class="bi bi-x-lg"></i>
+        </div>
+
+        <nav class="mobile-nav">
+          <ul class="menu-secundario">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+
+        <div class="overlay-menu"></div>
+      </div>
     </header>
 
     <main id="home">
@@ -59,9 +81,9 @@
             <div class="about_content2">
               <h2>Sobre<strong> Mim</strong></h2>
               <p>
-                Meu nome é Giovana Ramos. Estudante de TI com dois anos de experiência acadêmica e com foco em front-end, visando me tornar
-                desenvolvedora fullstack. Apaixonada por criar soluções que simplifiquem a vida das pessoas, busco constantemente aprender e evoluir,
-                desenvolvendo interfaces acessíveis e centradas na experiência do usuário.
+                Meu nome é Giovana Ramos. Estudante de TI com dois anos de experiência acadêmica e pessoal, com foco atual em desenvolvimento
+                front-end, visando me tornar desenvolvedora fullstack. Apaixonada por criar soluções que simplifiquem a vida das pessoas, busco
+                constantemente aprender e evoluir, desenvolvendo interfaces acessíveis e centradas na experiência do usuário.
               </p>
               <div class="about_icon">
                 <i class="bi bi-translate"></i>
@@ -84,42 +106,38 @@
         <div class="interface">
           <h2>Minhas<strong> Habilidades</strong></h2>
           <div class="flex">
-            <div class="flex">
-              <ul class="skills_list">
-                <li class="skills_item">
-                  <img class="skills_logo" src="assets/imagens/skills/csharp.png" alt="Logo Csharp" /><span class="skills_text1">C Sharp</span>
-                </li>
-                <li class="skills_item">
-                  <img class="skills_logo" src="assets/imagens/skills/js.png" alt="Logo JavaScript" /><span class="skills_text1">JavaScript</span>
-                </li>
-                <li class="skills_item">
-                  <img class="skills_logo" src="assets/imagens/skills/html.png" alt="Logo HTML" /><span class="skills_text1">HTML</span>
-                </li>
-                <li class="skills_item">
-                  <img class="skills_logo" src="assets/imagens/skills/css.png" alt="Logo CSS" /><span class="skills_text1">CSS</span>
-                </li>
-                <li class="skills_item">
-                  <img class="skills_logo" src="assets/imagens/skills/php.png" alt="Logo PHP" /><span class="skills_text1">PHP</span>
-                </li>
-                <li class="skills_item">
-                  <img class="skills_logo" src="assets/imagens/skills/mysql.png" alt="Logo MySQL" /><span class="skills_text2">MySQL</span>
-                </li>
-                <li class="skills_item">
-                  <img class="skills_logo" src="assets/imagens/skills/react.png" alt="Logo React" /><span class="skills_text2">React</span>
-                </li>
-                <li class="skills_item">
-                  <img class="skills_logo" src="assets/imagens/skills/figma.png" alt="Logo Figma" /><span class="skills_text2">Figma</span>
-                </li>
-                <li class="skills_item">
-                  <img class="skills_logo" src="assets/imagens/skills/git.png" alt="Logo Git" /><span class="skills_text2">Git</span>
-                </li>
-                <li class="skills_item">
-                  <img class="skills_logo" src="assets/imagens/skills/bootstrap.png" alt="Logo BootStrap" /><span class="skills_text2"
-                    >Bootstrap</span
-                  >
-                </li>
-              </ul>
-            </div>
+            <ul class="skills_list">
+              <li class="skills_item">
+                <img class="skills_logo" src="assets/imagens/skills/csharp.png" alt="Logo Csharp" /><span class="skills_text1">C Sharp</span>
+              </li>
+              <li class="skills_item">
+                <img class="skills_logo" src="assets/imagens/skills/js.png" alt="Logo JavaScript" /><span class="skills_text1">JavaScript</span>
+              </li>
+              <li class="skills_item">
+                <img class="skills_logo" src="assets/imagens/skills/html.png" alt="Logo HTML" /><span class="skills_text1">HTML</span>
+              </li>
+              <li class="skills_item">
+                <img class="skills_logo" src="assets/imagens/skills/css.png" alt="Logo CSS" /><span class="skills_text1">CSS</span>
+              </li>
+              <li class="skills_item">
+                <img class="skills_logo" src="assets/imagens/skills/php.png" alt="Logo PHP" /><span class="skills_text1">PHP</span>
+              </li>
+              <li class="skills_item">
+                <img class="skills_logo" src="assets/imagens/skills/mysql.png" alt="Logo MySQL" /><span class="skills_text2">MySQL</span>
+              </li>
+              <li class="skills_item">
+                <img class="skills_logo" src="assets/imagens/skills/react.png" alt="Logo React" /><span class="skills_text2">React</span>
+              </li>
+              <li class="skills_item">
+                <img class="skills_logo" src="assets/imagens/skills/figma.png" alt="Logo Figma" /><span class="skills_text2">Figma</span>
+              </li>
+              <li class="skills_item">
+                <img class="skills_logo" src="assets/imagens/skills/git.png" alt="Logo Git" /><span class="skills_text2">Git</span>
+              </li>
+              <li class="skills_item">
+                <img class="skills_logo" src="assets/imagens/skills/bootstrap.png" alt="Logo BootStrap" /><span class="skills_text2">Bootstrap</span>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -128,35 +146,59 @@
         <div class="interface">
           <h2>Meus <strong>Projetos</strong></h2>
           <div class="flex">
-            <div class="projects_card" style="background-image: url(assets/imagens/projects/hapkido.png)">
-              <div class="overlay">
-                <h3>Projeto UnionTec</h3>
-                <ul class="skills_list_projects">
-                  <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/js.png" alt="JavaScript" /></li>
-                  <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/html.png" alt="HTML" /></li>
-                  <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/css.png" alt="CSS" /></li>
-                  <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/php.png" alt="PHP" /></li>
-                  <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/mysql.png" alt="MySQL" /></li>
-                </ul>
+            <div class="projects_card">
+              <img class="projects_photo" src="assets/imagens/projects/uniontec.png" alt="Logo UnionTec" />
+              <h3>Projeto UnionTec</h3>
+              <p>Sistema de Gestão e Plataforma de Estudos.<br />Projeto social da arte marcial Hapkido.</p>
+              <ul class="skills_list_projects">
+                <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/js.png" alt="JavaScript" /></li>
+                <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/html.png" alt="HTML" /></li>
+                <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/css.png" alt="CSS" /></li>
+                <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/php.png" alt="PHP" /></li>
+                <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/mysql.png" alt="MySQL" /></li>
+              </ul>
+              <div class="projects_btn">
+                <a
+                  href="https://www.linkedin.com/in/giovana-ramoscp0/overlay/urn:li:fsd_profileProject:(ACoAAECJ82EBGs8EZqtHadryLFjvzWs_FShU4kk,1923659055)/treasury/"
+                  target="_blank"
+                >
+                  <button class="link_btn"><span>Ver no Linkedin</span></button>
+                </a>
               </div>
             </div>
-            <div class="projects_card" style="background-image: url(assets/imagens/projects/hortfruti.jpg)">
-              <div class="overlay">
-                <h3>Projeto HortiSabor</h3>
-                <ul class="skills_list_projects">
-                  <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/c.png" alt="Linguagem C" /></li>
-                  <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/codeblocks.png" alt="Code Blocks" /></li>
-                </ul>
+            <div class="projects_card">
+              <img class="projects_photo" src="assets/imagens/projects/hortisabor.png" alt="Logo UnionTec" />
+              <h3>Projeto HortiSabor</h3>
+              <p>Sistema de Gestão para um Hortifruti com<br />controle de venda e estoque em Modo Console.</p>
+              <ul class="skills_list_projects">
+                <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/c.png" alt="Linguagem C" /></li>
+                <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/codeblocks.png" alt="Code Blocks" /></li>
+              </ul>
+              <div class="projects_btn">
+                <a
+                  href="https://www.linkedin.com/in/giovana-ramoscp0/overlay/urn:li:fsd_profileProject:(ACoAAECJ82EBGs8EZqtHadryLFjvzWs_FShU4kk,2112337588)/treasury/"
+                  target="_blank"
+                >
+                  <button class="link_btn"><span>Ver no Linkedin</span></button>
+                </a>
               </div>
             </div>
-            <div class="projects_card" style="background-image: url(assets/imagens/projects/redesociais.png)">
-              <div class="overlay">
-                <h3>Projeto Rede Sociais</h3>
-                <ul class="skills_list_projects">
-                  <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/js.png" alt="JavaScript" /></li>
-                  <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/html.png" alt="HTML" /></li>
-                  <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/css.png" alt="CSS" /></li>
-                </ul>
+            <div class="projects_card">
+              <img class="projects_photo" src="assets/imagens/projects/redes-sociais.png" alt="Logo UnionTec" />
+              <h3>Projeto Rede Sociais</h3>
+              <p>Uma interface intuitiva e responsiva<br />que centraliza minhas Redes Sociais.</p>
+              <ul class="skills_list_projects">
+                <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/js.png" alt="JavaScript" /></li>
+                <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/html.png" alt="HTML" /></li>
+                <li class="skills_projects"><img class="skills_logo_projects" src="assets/imagens/skills/css.png" alt="CSS" /></li>
+              </ul>
+              <div class="projects_btn">
+                <a href="https://github.com/giovanaramoscp/iframe-project" target="_blank">
+                  <button class="link_btn"><span>Ver repositório</span></button>
+                </a>
+                <a href="https://giovanaramoscp.github.io/iframe-project/" target="_blank">
+                  <button class="link_btn"><span>Ver projeto</span></button>
+                </a>
               </div>
             </div>
           </div>
@@ -208,6 +250,6 @@
     <footer>
       <p>©2024. Todos os Direitos Reservados. Desenvolvido por <a href="https://github.com/giovanaramoscp" target="_blank">Giovana Ramos</a>.</p>
     </footer>
-    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/scripts.js" defer></script>
   </body>
 </html>
