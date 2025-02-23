@@ -40,7 +40,7 @@ header nav.header_nav ul {
 
 header nav.header_nav ul li {
   padding: 0 1rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 header a {
@@ -80,7 +80,7 @@ section.main_content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 10rem 8rem 7rem 5rem;
+  padding: 10rem 8rem 7rem 8rem;
 }
 
 .main_content .content1 p {
@@ -105,12 +105,12 @@ section.main_content {
 
 .flex {
   display: flex;
-  gap: 1rem;
+  justify-content: space-between;
 }
 
 h1 {
   color: #f0f0f0;
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 4rem;
 }
 
@@ -526,7 +526,7 @@ footer p {
   padding: 1rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .flex {
     flex-direction: column;
   }
