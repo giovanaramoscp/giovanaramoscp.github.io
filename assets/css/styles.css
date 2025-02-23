@@ -649,10 +649,15 @@ footer p {
 
   .about_icon {
     padding: 0 0 0 0.8rem;
+    gap: 0.5rem;
+  }
+
+  .about_icon i {
+    font-size: 1.3rem;
   }
 
   .about_icon span {
-    font-size: 1.2rem;
+    font-size: 0.95rem;
   }
 
   .description_buttons .btn {
