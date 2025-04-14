@@ -8,3 +8,6 @@ btnMenu.addEventListener("click", () => {
 menu.addEventListener("click", () => {
   menu.classList.remove("abrir-menu");
 });
+
+let labelAno = document.getElementById("anoAtual");
+labelAno.innerHTML = new Date().getFullYear();
